@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets & Processed Output (large data files > 100MB)
+*.csv
+*.numbers
+*.tsv
+*.parquet
+processed_reviews/
+
+# Spark / Hadoop runtime logs & metadata
+spark-warehouse/
+metastore_db/
+derby.log
+.spark-staging/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE configuration
+.idea/
+.vscode/
+*.swp
